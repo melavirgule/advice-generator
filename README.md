@@ -28,12 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot-Advice-Generator.jpg)
+![](public/Screenshot-Advice-Generator.png)
 
 
 ### Links
 
-- Live Site URL: [coming soon](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://animated-macaron-6684a3.netlify.app)
 
 ## My process
 
