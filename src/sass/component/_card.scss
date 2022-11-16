@@ -1,0 +1,57 @@
+@import "../base/typography";
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.card {
+  min-width: 32rem;
+  max-width: 45rem;
+
+  font-family: $font-primary;
+  text-align: center;
+
+  background-color: $c-neutral-dark;
+  border-radius: 1rem;
+  padding: $padding-xs;
+  margin: $padding-l;
+
+  position: relative;
+
+  &__title{
+    color: $c-primary;
+    font-size: $fs-title;
+    font-weight: $fw-title;
+    letter-spacing: 0.25em;
+    padding-block: $padding-m;
+  }
+
+  &__advice{
+    color: $c-primary-light;
+    font-size: $fs-primary;
+    font-weight: $fw-primary;
+
+  }
+
+  &__divider{
+    max-width: 90%;
+    padding-block: $padding-m $padding-xl;
+  }
+
+  &__button{
+    width: 6rem;
+    height: 6rem;
+
+    background-color: $c-primary;
+    border-radius: 50%;
+    cursor: grab;
+    @include flexCenter;
+    position: absolute;
+    bottom: -30px;
+    left: calc(50% - 3rem);
+    transition: transform 300ms ease-in-out;
+
+    &:hover{
+      transform: rotate(180deg);
+    }
+  }
+
+}
